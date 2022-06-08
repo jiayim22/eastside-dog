@@ -9,19 +9,21 @@ export default function AboutPage() {
         <div>
             <NavBar/>
             <main className="about">
-                <h2>About Us</h2>
-                <p>
-                Community Recommended
-                <br/>
-                We have been around since 2001 and have a loyal following of the many customers we have served in the community.
-                </p>
-                <p>
-                The Best Choice for Pet Supply
-                <br/>
-                We carry supplies for dogs and cats of every type, size, and age. We have the knowledge that it takes to keep up with all of the new products that are available, helping you choose supplies that will give your pets the nutrition, health and fun that they deserve.
-                </p>
+                <div className="container">
+                    <h2>About Us</h2>
+                    <p>
+                    Community Recommended
+                    <br/>
+                    We have been around since 2001 and have a loyal following of the many customers we have served in the community.
+                    </p>
+                    <p>
+                    The Best Choice for Pet Supply
+                    <br/>
+                    We carry supplies for dogs and cats of every type, size, and age. We have the knowledge that it takes to keep up with all of the new products that are available, helping you choose supplies that will give your pets the nutrition, health and fun that they deserve.
+                    </p>
+                </div>
             </main>
-            <Footer className="about-footer"/>
+            <Footer/>
         </div>
     )
 }

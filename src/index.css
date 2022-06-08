@@ -1,12 +1,75 @@
+/* 
+#3296d4 BLUE
+#a5d7a1 GREEN
+#6b6c6c GRAY 
+#ffffff WHITE
+*/
 * {
     box-sizing: border-box;
-  }
-  
-  /* BODY */
-  /* Default for small screens */
-  body {
+}
+
+/* NAV */
+/* general styling for navbar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* specifies logo size */
+.logo {
+    width: 200px;
+    height: 100px;
+}
+
+/* BODY */
+/* Default for small screens */
+body {
     color: #535353;
     font-family: 'Open Sans', sans-serif;
     margin: 8px;
     font-size: 14px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #6b6b6c;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+footer li {
+    padding: 0.5rem;
+}
+
+footer.col-sm {
+    margin: 0.25rem;
+}
+
+/* footer link styling */
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* GOOGLE MAP EMBED */
+iframe {
+    border: none;
+    width: 400px;
+    height: 280px;
+}
+
+iframe:focus {
+    outline: none;
   }
+  
+iframe[seamless] {
+    display: block;
+}
